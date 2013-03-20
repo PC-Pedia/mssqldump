@@ -8,7 +8,7 @@
     <ProjectGuid>{7FEA6CD4-F311-45A9-A660-6C7B47540023}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>com.douglasdynamics.netadmintools.sql.mssqldump</RootNamespace>
+    <RootNamespace>mssqldump</RootNamespace>
     <AssemblyName>mssqldump</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScriptCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
